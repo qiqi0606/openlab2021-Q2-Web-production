@@ -75,42 +75,41 @@ address {
 
 .movie-info__about-item {
     margin-bottom: 15px;
-    padding-left: 22px;
+    padding-left: 2px;
+}
+
+.movie-info__about-item-iro1 {
+    margin-bottom: 15px;
+    padding-left: 2px;
+	font-size: 150%;
+	font-weight: 600;
+}
+
+.movie-info__about-item-iro2 {
+    margin-bottom: 15px;
+    padding-left: 2px;
+	font-size: 80%;
 }
 
 .about-item__format {
-    width: 50px;
+    width: 200px;
     padding: 4px 2px 2px 2px;
     text-align: center;
     font-weight: 600;
+	font-size: 150%;
     background-color: var(--movie-format-bg-color);
     border-radius: 4px;
 }
 
-.about-item__map {
-    background: url(../img/map.svg) 2px center / contain no-repeat;
-}
-
-.about-item__date {
-    background: url(../img/date.svg) left center / contain no-repeat;
-
-}
-
-.about-item__time {
-    background: url(../img/time.svg) left center / contain no-repeat;
-
-}
-
-
 /* --------------------------------- */
 .booking-seats {
-    padding-top: 65px;
+    padding-top: 00px;
 }
 
 .booking-seats__title {
-    margin-bottom: 60px;
+    margin-bottom: 25px;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .booking-seats__cinema-hall {
@@ -122,7 +121,7 @@ address {
 .cinema-hall__screen {
     margin-bottom: 40px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .cinema-hall__screen:after {
